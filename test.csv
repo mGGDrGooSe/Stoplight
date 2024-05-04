@@ -1,0 +1,7 @@
+SMILES
+CCC(N(C(CC1)CCN1C(C)Cc1ccccc1)c1ccccc1)=O
+CC(C)[C@@H](CC[C@H](C)C1)[C@H]1O
+NC1(CCC1)c(cc1)ccc1-[n]1c(-c2c(N)nccc2)nc(cc2)c1nc2-c1ccccc1
+O=C(c1ccc[o]1)N(C1CCN(CCc2ccccc2)CC1)c1nccnc1
+O=C(C(Cc1cccc(C(F)(F)F)c1)=C([C@H](CC1)CC[C@@H]1c1ccccc1)N1)NC1=O
+OC([C@@H](CCC1)N1C(CCCCC(N(CCC1)[C@H]1C(O)=O)=O)=O)=O
