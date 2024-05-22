@@ -91,7 +91,12 @@ def get_csv_from_smiles(smiles_list, options):
             continue
 
         props, overall_score = get_stoplight(smiles, options)
-        overall_score = round(overall_score, int(options["precision"]))
+        #JS - Avoid dealing with TypeError for overall_score = none when using --props pk
+        if overall_score is None:
+            overall_score = 999
+        else:
+            overall_score = round(overall_score, int(options["precision"]))
+        #End JS
 
         props = [[key] + val for key, val in props.items()]
         # loop through all properties for the smiles
